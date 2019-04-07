@@ -1,4 +1,4 @@
-package pack;
+package pack;С‹С‹
 
 
 public class classrinata {
@@ -13,7 +13,7 @@ public class classrinata {
 			ta[x].height=(x+1)*2;
 			ta[x].length = x+4;
 			ta[x].setArea();
-			System.out.print("треугольник "+x+", зона");
+			System.out.print("Е€Д‘ДєГіДѓГ®Г«ГјГ­ДЌД™ "+x+", Г§Г®Г­Е•");
 			System.out.println(" = " + ta[x].area);
 			x=x+1;
 		}
@@ -22,7 +22,7 @@ public class classrinata {
 		classrinata t5=ta[2];
 		ta[2].area = 343;
 		System.out.print("y= " + y);
-		System.out.println(", зона t5 =" + t5.area);
+		System.out.println(", Г§Г®Г­Е• t5 =" + t5.area);
 	}
 void setArea() {
 	area = (height*length)/2;
